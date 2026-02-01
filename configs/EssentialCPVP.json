@@ -1,23 +1,6 @@
 {
   "theme": "Dark",
   "modules": {
-    "TriggerBot": {
-      "enabled": false,
-      "keyCode": -1,
-      "settings": {
-        "Crit Prio": true,
-        "Only on LMB": true,
-        "Ignore Shields": false,
-        "Only Weapons": false,
-        "TPS Sync": true,
-        "Slot Restriction": false,
-        "Attack Slot": 1,
-        "Cooldown %": 92,
-        "Randomization": true,
-        "Random Delay (ms)": 12,
-        "Ignore Friends": true
-      }
-    },
     "AimAssist": {
       "enabled": false,
       "keyCode": -1,
@@ -431,7 +414,7 @@
     },
     "ClickGUI": {
       "enabled": false,
-      "keyCode": 16,
+      "keyCode": -1,
       "settings": {
         "Theme": "Default"
       }
