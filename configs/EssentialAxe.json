@@ -1,5 +1,116 @@
 {
   "theme": "Dark",
+  "hudElements": {
+    "EffectHUD": {
+      "x": 10,
+      "y": 120,
+      "enabled": true,
+      "settings": {
+        "Show Icon": true,
+        "Time Format": "Minutes:Seconds",
+        "Show Progress Bar": true,
+        "Sort by Duration": true,
+        "BG Opacity": 0.56,
+        "Corner Radius": 8,
+        "Spacing": 4,
+        "Icon Size": 18,
+        "Glow Effect": true,
+        "Glow Size": 8,
+        "Glow Intensity": 0.5,
+        "Slide Animation": true,
+        "Fade Animation": true,
+        "Pulse on Low Time": true,
+        "Low Time Threshold": 10,
+        "Progress Bar Height": 3,
+        "Colored Progress Bar": true
+      }
+    },
+    "TargetHUD": {
+      "x": 563.5,
+      "y": 99.02702702702702,
+      "enabled": true,
+      "settings": {
+        "Show Health": true,
+        "Show Skin": true,
+        "Show Totem Pops": true,
+        "Disappear Delay": 0,
+        "BG Opacity": 0.65625,
+        "Corner Radius": 8,
+        "Glow Effect": true,
+        "Glow Size": 6.65625,
+        "Glow Intensity": 1,
+        "Damage Flash": true,
+        "Particle Effect": true,
+        "Particle Count": 5,
+        "Particle Lifespan": 2.75,
+        "Pop on Damage": true,
+        "Pop Strength": 0.5,
+        "Head Shake": true,
+        "Shake Intensity": 7.28125
+      }
+    },
+    "Coordinates": {
+      "x": 16,
+      "y": 68.5317750182615,
+      "enabled": true,
+      "settings": {
+        "Font Size": 13,
+        "Corner Radius": 8,
+        "BG Opacity": 0.56,
+        "Gradient BG": true,
+        "Show Border": true,
+        "Border Width": 1.5,
+        "Glow Effect": true,
+        "Glow Size": 10.1875,
+        "Glow Intensity": 1,
+        "Show Decimals": true,
+        "Decimal Places": 1,
+        "Pulse Strength": 0.1
+      }
+    },
+    "FPS": {
+      "x": 20.5,
+      "y": 44.50219138056975,
+      "enabled": true,
+      "settings": {
+        "Font Size": 14,
+        "Corner Radius": 8,
+        "BG Opacity": 0.56,
+        "Gradient BG": true,
+        "Show Border": true,
+        "Border Width": 2,
+        "Glow Effect": true,
+        "Glow Size": 10.375,
+        "Glow Intensity": 0.996875,
+        "Color Coded": true,
+        "Flash on Change": true,
+        "Pulse on Change": false,
+        "Pulse Strength": 0.1
+      }
+    },
+    "Last Reach": {
+      "x": 22.5,
+      "y": 94.01753104455807,
+      "enabled": true,
+      "settings": {
+        "Font Size": 13,
+        "Corner Radius": 8,
+        "BG Opacity": 0.56,
+        "Gradient BG": true,
+        "Show Border": true,
+        "Border Width": 1.5,
+        "Glow Effect": true,
+        "Glow on Suspicious": true,
+        "Glow Size": 10.0625,
+        "Glow Intensity": 1,
+        "Color Coded": true,
+        "Pulse on Hit": true,
+        "Pulse Strength": 0.1,
+        "Suspicious Threshold": 3,
+        "Very High Threshold": 3.5
+      }
+    }
+  },
   "modules": {
     "TriggerBot": {
       "enabled": true,
@@ -430,121 +541,10 @@
       }
     },
     "ClickGUI": {
-      "enabled": true,
-      "keyCode": 16,
+      "enabled": false,
+      "keyCode": -1,
       "settings": {
         "Theme": "Retro"
-      }
-    }
-  },
-  "hudElements": {
-    "EffectHUD": {
-      "x": 10,
-      "y": 120,
-      "enabled": true,
-      "settings": {
-        "Show Icon": true,
-        "Time Format": "Minutes:Seconds",
-        "Show Progress Bar": true,
-        "Sort by Duration": true,
-        "BG Opacity": 0.56,
-        "Corner Radius": 8,
-        "Spacing": 4,
-        "Icon Size": 18,
-        "Glow Effect": true,
-        "Glow Size": 8,
-        "Glow Intensity": 0.5,
-        "Slide Animation": true,
-        "Fade Animation": true,
-        "Pulse on Low Time": true,
-        "Low Time Threshold": 10,
-        "Progress Bar Height": 3,
-        "Colored Progress Bar": true
-      }
-    },
-    "TargetHUD": {
-      "x": 563.5,
-      "y": 99.02702702702702,
-      "enabled": true,
-      "settings": {
-        "Show Health": true,
-        "Show Skin": true,
-        "Show Totem Pops": true,
-        "Disappear Delay": 0,
-        "BG Opacity": 0.65625,
-        "Corner Radius": 8,
-        "Glow Effect": true,
-        "Glow Size": 6.65625,
-        "Glow Intensity": 1,
-        "Damage Flash": true,
-        "Particle Effect": true,
-        "Particle Count": 5,
-        "Particle Lifespan": 2.75,
-        "Pop on Damage": true,
-        "Pop Strength": 0.5,
-        "Head Shake": true,
-        "Shake Intensity": 7.28125
-      }
-    },
-    "Coordinates": {
-      "x": 16,
-      "y": 68.5317750182615,
-      "enabled": true,
-      "settings": {
-        "Font Size": 13,
-        "Corner Radius": 8,
-        "BG Opacity": 0.56,
-        "Gradient BG": true,
-        "Show Border": true,
-        "Border Width": 1.5,
-        "Glow Effect": true,
-        "Glow Size": 10.1875,
-        "Glow Intensity": 1,
-        "Show Decimals": true,
-        "Decimal Places": 1,
-        "Pulse Strength": 0.1
-      }
-    },
-    "FPS": {
-      "x": 20.5,
-      "y": 44.50219138056975,
-      "enabled": true,
-      "settings": {
-        "Font Size": 14,
-        "Corner Radius": 8,
-        "BG Opacity": 0.56,
-        "Gradient BG": true,
-        "Show Border": true,
-        "Border Width": 2,
-        "Glow Effect": true,
-        "Glow Size": 10.375,
-        "Glow Intensity": 0.996875,
-        "Color Coded": true,
-        "Flash on Change": true,
-        "Pulse on Change": false,
-        "Pulse Strength": 0.1
-      }
-    },
-    "Last Reach": {
-      "x": 22.5,
-      "y": 94.01753104455807,
-      "enabled": true,
-      "settings": {
-        "Font Size": 13,
-        "Corner Radius": 8,
-        "BG Opacity": 0.56,
-        "Gradient BG": true,
-        "Show Border": true,
-        "Border Width": 1.5,
-        "Glow Effect": true,
-        "Glow on Suspicious": true,
-        "Glow Size": 10.0625,
-        "Glow Intensity": 1,
-        "Color Coded": true,
-        "Pulse on Hit": true,
-        "Pulse Strength": 0.1,
-        "Suspicious Threshold": 3,
-        "Very High Threshold": 3.5
       }
     }
   },
